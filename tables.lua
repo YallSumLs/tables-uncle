@@ -1,5 +1,4 @@
 local Tables = {}
-
 local placeId = game.PlaceId
 
 if placeId == 131884594917121 then
@@ -30,9 +29,7 @@ Tables.PotionMap = {
 }
 
 if placeId == 76558904092080 then
-    Tables.Enemies = {
-        "Zombie", "Elite Zombie", "Delver Zombie", "Brute Zombie"
-    }
+    Tables.Enemies = { "Zombie", "Elite Zombie", "Delver Zombie", "Brute Zombie" }
 elseif placeId == 129009554587176 then
     Tables.Enemies = {
         "Bomber", "Skeleton Rogue", "Axe Skeleton", "Deathaxe Skeleton",
@@ -49,13 +46,9 @@ else
 end
 
 if placeId == 76558904092080 then
-    Tables.TargetRockValues = {
-        "Pebble", "Rock", "Boulder"
-    }
+    Tables.TargetRockValues = { "Pebble", "Rock", "Boulder" }
 elseif placeId == 129009554587176 then
-    Tables.TargetRockValues = {
-        "Basalt Core", "Basalt Rock", "Basalt Vein", "Volcanic Rock"
-    }
+    Tables.TargetRockValues = { "Basalt Core", "Basalt Rock", "Basalt Vein", "Volcanic Rock" }
 elseif placeId == 131884594917121 then
     Tables.TargetRockValues = {
         "Icy Pebble", "Icy Rock", "Icy Boulder",
@@ -71,5 +64,3 @@ else
         "Large Ice Crystal", "Floating Crystal"
     }
 end
-
-return Tables
